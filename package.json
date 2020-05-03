@@ -1,0 +1,24 @@
+{
+  "name": "matest-diffs",
+  "version": "0.0.1",
+  "description": "Test repo for inline diffs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js --inline-diffs --reporter mochawesome --reporter-option code=false,inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamgruber/matest-diffs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamgruber/matest-diffs/issues"
+  },
+  "homepage": "https://github.com/adamgruber/matest-diffs#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "mochawesome": "^6.1.1"
+  }
+}
